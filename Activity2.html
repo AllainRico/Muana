@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Activity 2</h1>
+    <h3 id="dis"></h3>
+
+    <script>
+        birthMonth = "February"
+        birthDate = 20
+
+        if(birthMonth == "January" && birthDate <= 20){
+                s = "Capricornus";
+        }
+        else if(birthMonth == "January" && birthDate >= 20){
+                s = "Aquarius";
+        }
+        else if(birthMonth == "February" && birthDate >= 19){
+               s = "Pisces";
+        }
+        else if(birthMonth == "February" && birthDate <= 19){
+               s = "Aquariuss";
+        }
+        else if(birthMonth == "March" && birthDate >= 20){
+                s = "Aries";
+        }
+        else if(birthMonth == "March" && birthDate <= 20){
+                s = "Pisces";
+        }
+        else if(birthMonth == "April" && birthDate >= 20){
+                s = "Taurus";
+        }
+        else if(birthMonth == "April" && birthDate <= 20){
+                s = "Aries";
+        }
+        else if(birthMonth == "May" && birthDate >= 21){
+                s = "Gemini"
+        }
+        else if(birthMonth == "May" && birthDate <= 21){
+                s = "Taurus"
+        }
+        else if(birthMonth == "June" && birthDate >= 22){
+                s = "Cancer";
+        }
+        else if(birthMonth == "June" && birthDate <= 22){
+                s = "Gemini";
+        }
+        else if(birthMonth == "July" && birthDate >= 23){
+                s = "Leo";
+        }
+        else if(birthMonth == "July" && birthDate <= 23){
+                s = "Cancer";
+        }
+        else if(birthMonth == "August" && birthDate >= 23){
+                s = "Virgo";
+        }
+        else if(birthMonth == "August" && birthDate <= 23){
+                s = "Leo";
+        }
+        else if(birthMonth == "September" && birthDate >= 23){
+                s = "Libra";
+        }
+        else if(birthMonth == "September" && birthDate <= 23){
+                s = "Virgo";
+        }
+        else if(birthMonth == "October" && birthDate >= 24){
+                s = "Scorpius";
+        }
+        else if(birthMonth == "October" && birthDate <= 24){
+                s = "Libra";
+        }
+        else if(birthMonth == "November" && birthDate >= 22){
+                s = "Sagittarius";
+        }
+        else if(birthMonth == "November" && birthDate <= 22){
+                s = "Scorpius";
+        }
+        else if(birthMonth == "December" && birthDate >= 22){
+                s = "Capricornus";
+        }
+        else if(birthMonth == "December" && birthDate <= 22){
+                s = "Sagittarius";
+        }
+        document.getElementById("dis").innerHTML = "Your zodiac sign is  " + s;
+    </script>
+</body>
+</html>
